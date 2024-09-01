@@ -22,7 +22,7 @@ mongoose.connection.on('connected', () => {
     console.log(`connected to mongoDB ${mongoose.connection.name}.`)
 })
 
-app.use(cors({origin: 'https://memoriesinfocus.netlify.app'}))
+app.use(cors({origin: 'https://memoriesinfocusfilmphotos.netlify.app'}))
 
 app.use(express.json())
 
